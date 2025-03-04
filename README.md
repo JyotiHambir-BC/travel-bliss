@@ -1,6 +1,6 @@
 <h1 align="center">TRAVEL BLISS </h1>
 
-[View the live Project here](https://jyotihambir-bc.github.io/hello-vscode/)
+[View the live Project here](https://jyotihambir-bc.github.io/travel-bliss/)
 
 
 ![Mockup]()
@@ -58,7 +58,7 @@
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed  ribbon display to indicate the successful deployment
   - Any changes pushed to the master branch will take effect on the live project.
 
-  The live link can be found here - [Travel Bliss](https://jyotihambir-bc.github.io/hello-vscode/)
+  The live link can be found here - [Travel Bliss](https://jyotihambir-bc.github.io/travel-bliss/)
 
 ## Credits
 
