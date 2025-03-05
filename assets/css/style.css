@@ -23,7 +23,16 @@ nav a {
 }
 
 /* ----------------------------------------------- Homepage */
+.home-img {
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+}
 
+.book-line {
+    font-size: 20px;
+}
 
 /* ----------------------------------------------- Menu page */
 
