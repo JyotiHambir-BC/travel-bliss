@@ -35,7 +35,18 @@ nav a {
 }
 
 /* ----------------------------------------------- Menu page */
+.card-title {
+    font-family: 'poppins' sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #a7c957;
+    border-radius: 5px;
+}
 
+.card-title:hover {
+    font-weight: 700;
+    font-size: 30px;
+}
 
 /* ----------------------------------------------- contact page */
 
