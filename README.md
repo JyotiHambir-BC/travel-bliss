@@ -44,9 +44,10 @@
 
 ### Frameworks, Libraries
 * [Balsamiq](https://balsamiq.com/)- To build the wireframes for the project.
-* [Bootstrap](https://getbootstrap.com/) Used to add style in HTML code
+* [Bootstrap 5](https://getbootstrap.com/) Used to add style in HTML code
 * [Google Fonts:](https://fonts.google.com/) used for the Poppins and Protest Guerrilla font
 * [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+* [Coolors:](https://coolors.co/palettes/trending) was used for choose the colours for website.
 
 ## Testing
 

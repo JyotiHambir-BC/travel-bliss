@@ -48,6 +48,22 @@ nav a {
     font-size: 30px;
 }
 
+.card {
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin: 10px 20px;    
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+}
+
+.card-img-top {
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 5px 5px #ced4da;
+}
+
 /* ----------------------------------------------- contact page */
 
 
