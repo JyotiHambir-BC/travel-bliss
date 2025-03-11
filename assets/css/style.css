@@ -49,6 +49,13 @@ nav a:hover {
 }
 
 /* ----------------------------------------------- Menu page */
+.back {
+    font-family: 'poppins' sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #14213d;
+}
+
 .card-title {
     font-family: 'poppins' sans-serif;
     font-weight: 600;
