@@ -17,6 +17,7 @@ html, body {
 
 header {
     background-color: #14213d;
+    /* height: 150px; */
 }
 
 .container {    
@@ -41,29 +42,29 @@ header {
     font-family: 'poppins', sans-serif;
     font-weight: 500;
     margin-left: 30px;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 /* ----------------------------------------------- Navbar */
 nav {
     display: flex;
     justify-content: end;
-    margin-right: 15px;
-    margin-top: 15px;    
+    margin-right: 10px;
+    margin-top: 5px;    
 }
 
 nav a {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
     letter-spacing: 2px;
     font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
     color: #fca311;
 }
 
 nav a:hover {
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: underline;
     color: #fca311;
 }
@@ -133,5 +134,9 @@ nav a:hover {
 footer {
     background-color: #14213d;
     padding: 10px;
-
+    bottom: 0;   
+    left: 0;
+    position: relative; 
+    font-size: small;
+    width:100%;
 }
