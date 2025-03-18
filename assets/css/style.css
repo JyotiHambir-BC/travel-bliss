@@ -157,6 +157,24 @@ nav a:hover {
   margin: 20px;
 }
 
+@keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.bk-form {
+    font-size: 50px;
+    color: #333;
+    animation: flash 1s infinite;
+}
+
 .btn-reset {
     margin-left: 15px;
 }
@@ -166,7 +184,7 @@ nav a:hover {
 footer {
     background-color: #14213d;
     padding: 10px;
-    bottom: 0;   
+    bottom: 0px;   
     left: 0;
     position: relative; 
     font-size: small;
