@@ -8,7 +8,8 @@
 }
 
 html, body { 
-    background-color: #f0e6ef;   
+    /* background-color: #f0e6ef;    */
+    background-color: #E3F2E1;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -134,6 +135,11 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+.image-text {
+    margin-top: 30px;
+
+}
+
 /* ----------------------------------------------- Menu page */
 .back {
     font-family: 'poppins', sans-serif;
@@ -204,6 +210,15 @@ nav a:hover {
 .btn-reset {
     margin-left: 15px;
 }
+
+.quality {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+}
+
+
 
 
 /* ----------------------------------------------- Footer */
