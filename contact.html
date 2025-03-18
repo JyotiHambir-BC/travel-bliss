@@ -23,82 +23,127 @@
           <a href="menu.html">Destination</a>
           <a href="contact.html">Contact Us</a>
         </nav>
-        
       </div>
     </header>
     <!-- contact screen -->
 
     <section>
       <div class="row">
-      <div class="col-md-6">
-        <h2 class="why-text text-center">Why Choose Us:</h2>
-        <ul class="text-left">
-          <li>
-            <b>Personalized Itineraries ✈️:</b> <br> We craft customized travel plans tailored to your interests, budget, and schedule.
-          </li>
-          <li>
-            <b>Handpicked Destinations 🌍 :</b> <br> Explore India’s most breathtaking locations, from iconic landmarks to hidden gems.
-          </li>
-          <li>
-            <b>Affordable Packages 💰 :</b> <br> Get the best deals on flights, hotels, and tours without compromising on quality.
-          </li>
-          <li>
-            <b>24/7 Customer Support 📞 :</b> <br> Our travel experts are available round the clock to assist you before, during, and after your trip.
-          </li>
-          <li>
-            <b>Hassle-Free Booking ✅ :</b> <br> Seamless online booking with instant confirmation and secure payment options.
-          </li>
-          <li>
-            <b>Local Expertise 🏔️ :</b> <br> Our team consists of travel enthusiasts and local guides who know India inside out.
-          </li>
-          <li>
-            <b>Sustainable & Responsible Travel 🌱 :</b> <br> We promote eco-friendly tourism and support local communities.
-          </li>
-          <li>
-            <b>Verified Reviews & Happy Travelers ⭐ :</b> <br> Thousands of satisfied customers have explored India with us
-          </li>
-        </ul>
+        <div class="col-md-6">
+          <h2 class="why-text text-center">Why Choose Us:</h2>
+          <ul class="text-left">
+            <li>
+              <b>Personalized Itineraries ✈️:</b> <br />
+              We craft customized travel plans tailored to your interests,
+              budget, and schedule.
+            </li>
+            <li>
+              <b>Handpicked Destinations 🌍 :</b> <br />
+              Explore India’s most breathtaking locations, from iconic landmarks
+              to hidden gems.
+            </li>
+            <li>
+              <b>Affordable Packages 💰 :</b> <br />
+              Get the best deals on flights, hotels, and tours without
+              compromising on quality.
+            </li>
+            <li>
+              <b>24/7 Customer Support 📞 :</b> <br />
+              Our travel experts are available round the clock to assist you
+              before, during, and after your trip.
+            </li>
+            <li>
+              <b>Hassle-Free Booking ✅ :</b> <br />
+              Seamless online booking with instant confirmation and secure
+              payment options.
+            </li>
+            <li>
+              <b>Local Expertise 🏔️ :</b> <br />
+              Our team consists of travel enthusiasts and local guides who know
+              India inside out.
+            </li>
+            <li>
+              <b>Sustainable & Responsible Travel 🌱 :</b> <br />
+              We promote eco-friendly tourism and support local communities.
+            </li>
+            <li>
+              <b>Verified Reviews & Happy Travelers ⭐ :</b> <br />
+              Thousands of satisfied customers have explored India with us
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-center">Booking Form</h2>
+          <form action="/action_page.php" class="form">
+            <div class="mb-3 mt-3">
+              <label for="name" class="form-label">Full Name:</label>
+              <input
+                type="name"
+                class="form-control"
+                id="name"
+                placeholder="Enter Full Name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter Email ID"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-3 select">
+              <label for="select" class="form-label"
+                >Select Your Destination:</label
+              >
+              <select class="form-select">
+                <option>Varkala Beach</option>
+                <option>Kovalam Beach</option>
+                <option>Marina Beach</option>
+                <option>Dona Paula Beach</option>
+                <option>Radhanagar Beach</option>
+                <option>Diveagar Beach</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="date"
+                >Choose Date:
+                <label for="start-date">From:
+                <input
+                  type="date"
+                  class="form-control"
+                  id="start-date"
+                  name="start date"
+                />
+              </label>
+              <label for="end-date">To:
+                <input
+                  type="date"
+                  class="form-control"
+                  id="end-date"
+                  name="end date"
+                />
+              </label>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary btn-reset">Reset</button>
+          </form>
+        </div>
       </div>
-      <div class="col-md-6">
-        <form action="/action_page.php">
-          <div class="mb-3 mt-3">
-            <label for="name" class="form-label">Full Name:</label>
-            <input type="name" class="form-control" id="name" placeholder="Enter Full Name" name="name" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter Email ID" name="email" required>
-          </div>
-          <div class="mb-3 select">
-            <label for="select" class="form-label">Select Your Destination:</label>
-            <select class="form-select">
-              <option>Varkala Beach</option>
-              <option>Kovalam Beach</option>
-              <option>Marina Beach</option>
-              <option>Dona Paula Beach</option>
-              <option>Radhanagar Beach</option>
-              <option>Diveagar Beach</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="date">Choose Date: </label>
-            <input type="date" class="form-control" id="start-date" name="start date">
-            <input type="date" class="form-control" id="end-date" name="end date">
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    </div>
     </section>
-   
-       
 
     <footer>
       <section>
         <div class="container text-center">
-            <p>Made By Jyoti Hambir</p>
+          <p>Made By Jyoti Hambir</p>
         </div>
-    </section>
+      </section>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
