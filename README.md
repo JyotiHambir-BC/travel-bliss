@@ -66,9 +66,10 @@
   The live link can be found here - [Travel Bliss](https://jyotihambir-bc.github.io/travel-bliss/)
 
 ## Credits
+- [Unsplash](https://unsplash.com/s/photos/travel) for downloaded images for cards.
 
 ### Media
-- All images were donloaded from google
+- All images were donloaded from google 
 
 ### Acknowledgments
 -

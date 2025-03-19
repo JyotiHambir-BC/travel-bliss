@@ -8,7 +8,7 @@
 }
 
 html, body { 
-    /* background-color: #f0e6ef;    */
+    background-image: url("");
     background-color: #E3F2E1;
     height: 100%;
     margin: 0;
@@ -80,15 +80,17 @@ nav a:hover {
     width: 100vw;
     height: 100%;
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px 10px;
     position: relative;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-img {
-    height: 50vh;
+    height: 60vh;
     width: 97vw;   
     display: block; 
+    /* object-fit: contain; */
 }
 
 .hero-text {
@@ -97,13 +99,13 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%); /*center the text */   
     background: rgba(85, 166, 48, 0.5);
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
+    text-align: center;    
 }
 
 .btn {
