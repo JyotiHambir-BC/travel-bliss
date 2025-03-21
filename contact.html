@@ -10,8 +10,11 @@
       crossorigin="anonymous"
     />
     <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/ca599974b3.js" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://kit.fontawesome.com/ca599974b3.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Travel Bliss</title>
@@ -20,11 +23,40 @@
     <!-- Header Tagline and Navbar -->
     <header>
       <div class="container">
-        <h1 class="logo"><i class="fa-solid fa-globe"></i>  TRAVEL BLISS</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="menu.html">Destination</a>
-          <a href="contact.html">Contact Us</a>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <!-- Logo or Brand Name -->
+            <h1 class="logo"><i class="fa-solid fa-globe"></i> TRAVEL BLISS</h1>
+
+            <!-- Burger Button for Small Screens -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon burger-bar"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -115,24 +147,59 @@
               </select>
             </div>
             <div class="mb-3">
-              <label for="date"
-                >Choose Date:
-                <label for="start-date">From:
+              <label for="adult" class="form-label"
+                >Adult (Above 16 years)
                 <input
-                  type="date"
+                  type="text"
                   class="form-control"
-                  id="start-date"
-                  name="start date"
+                  id="adult"
+                  name="adult"
+                  required
                 />
               </label>
-              <label for="end-date">To:
+
+              <label for="child" class="form-label"
+                >Child (2 to 16 years)
                 <input
-                  type="date"
+                  type="text"
                   class="form-control"
-                  id="end-date"
-                  name="end date"
+                  id="child"
+                  name="child"
                 />
               </label>
+
+              <label for="infant" class="form-label"
+                >Infant (0 to 2 years)
+                <input
+                  type="text"
+                  class="form-control"
+                  id="infant"
+                  name="infant"
+                />
+              </label>
+            </div>
+
+            <div class="mb-3">
+              <label for="date" class="form-label">
+                Choose Date:
+                <label for="start-date"
+                  >From:
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="start-date"
+                    name="start date"
+                  />
+                </label>
+                <label for="end-date"
+                  >To:
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="end-date"
+                    name="end date"
+                  />
+                </label>
               </label>
             </div>
             <!-- <div class="mb-3 comment">
@@ -144,7 +211,9 @@
               <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="reset" class="btn btn-primary btn-reset">Reset</button>
+            <button type="reset" class="btn btn-primary btn-reset">
+              Reset
+            </button>
           </form>
         </div>
       </div>

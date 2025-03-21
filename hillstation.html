@@ -10,7 +10,10 @@
       crossorigin="anonymous"
     />
     <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/ca599974b3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ca599974b3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -20,11 +23,39 @@
     <!-- Header Tagline and Navbar -->
     <header>
       <div class="container">
-        <h1 class="logo"><i class="fa-solid fa-globe"></i>  TRAVEL BLISS</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="menu.html">Destination</a>
-          <a href="contact.html">Contact Us</a>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <!-- Logo or Brand Name -->
+            <h1 class="logo"><i class="fa-solid fa-globe"></i> TRAVEL BLISS</h1>
+
+            <!-- Burger Button for Small Screens -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon burger-bar"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>

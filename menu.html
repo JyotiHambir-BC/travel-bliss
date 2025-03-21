@@ -7,9 +7,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/ca599974b3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ca599974b3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -19,19 +23,52 @@
     <!-- Header Tagline and Navbar -->
     <header>
       <div class="container">
-        <h1 class="logo"><i class="fa-solid fa-globe"></i>  TRAVEL BLISS</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="menu.html">Destination</a>
-          <a href="contact.html">Contact Us</a>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <!-- Logo or Brand Name -->
+            <h1 class="logo"><i class="fa-solid fa-globe"></i> TRAVEL BLISS</h1>
+
+            <!-- Burger Button for Small Screens -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon burger-bar"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
     <!-- Tour Screen -->
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 text-center">
-      <div class="col">  <!-- card 1-->
+      <div class="col">
+        <!-- card 1-->
         <div class="card">
-          <img src="assets/img/card-title/beach.jpg" class="card-img-top" alt="beach-image" />
+          <img
+            src="assets/img/card-title/beach.jpg"
+            class="card-img-top"
+            alt="beach-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Beaches</h5>
             <p class="card-text">
@@ -43,9 +80,14 @@
           </div>
         </div>
       </div>
-      <div class="col"> <!-- card 2-->
+      <div class="col">
+        <!-- card 2-->
         <div class="card">
-          <img src="assets/img/card-title/hillstations.jpg" class="card-img-top" alt="hill-station-image" />
+          <img
+            src="assets/img/card-title/hillstations.jpg"
+            class="card-img-top"
+            alt="hill-station-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Hill Stations</h5>
             <p class="card-text">
@@ -57,9 +99,14 @@
           </div>
         </div>
       </div>
-      <div class="col"> <!-- card 3-->
+      <div class="col">
+        <!-- card 3-->
         <div class="card">
-          <img src="assets/img/card-title/fort.jpg" class="card-img-top" alt="fort-image" />
+          <img
+            src="assets/img/card-title/fort.jpg"
+            class="card-img-top"
+            alt="fort-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Forts</h5>
             <p class="card-text">
@@ -70,9 +117,14 @@
           </div>
         </div>
       </div>
-      <div class="col"> <!-- card 4-->
+      <div class="col">
+        <!-- card 4-->
         <div class="card">
-          <img src="assets/img/card-title/museum.jpg" class="card-img-top" alt="fort-image" />
+          <img
+            src="assets/img/card-title/museum.jpg"
+            class="card-img-top"
+            alt="fort-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Museums</h5>
             <p class="card-text">
@@ -83,9 +135,14 @@
           </div>
         </div>
       </div>
-      <div class="col"> <!-- card 5-->
+      <div class="col">
+        <!-- card 5-->
         <div class="card">
-          <img src="assets/img/card-title/wildlife.jpg" class="card-img-top" alt="wildlife-image" />
+          <img
+            src="assets/img/card-title/wildlife.jpg"
+            class="card-img-top"
+            alt="wildlife-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Wild Life</h5>
             <p class="card-text">
@@ -99,7 +156,11 @@
       </div>
       <div class="col">
         <div class="card">
-          <img src="assets/img/card-title/wildlife.jpg" class="card-img-top" alt="wildlife-image" />
+          <img
+            src="assets/img/card-title/wildlife.jpg"
+            class="card-img-top"
+            alt="wildlife-image"
+          />
           <div class="card-body">
             <h5 class="card-title">Wild Life</h5>
             <p class="card-text">
@@ -116,9 +177,9 @@
     <footer>
       <section>
         <div class="container text-center">
-            <p>Made By Jyoti Hambir</p>
+          <p>Made By Jyoti Hambir</p>
         </div>
-    </section>
+      </section>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

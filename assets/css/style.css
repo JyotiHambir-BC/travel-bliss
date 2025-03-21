@@ -237,7 +237,9 @@ nav a:hover {
     font-family: 'poppins', sans-serif;
 }
 
-
+.form-label {
+    font-weight: bold;
+}
 
 
 /* ----------------------------------------------- Footer */
