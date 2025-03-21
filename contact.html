@@ -191,6 +191,7 @@
                     class="form-control"
                     id="start-date"
                     name="start date"
+                    required
                   />
                 </label>
                 <label for="end-date"
@@ -200,14 +201,12 @@
                     class="form-control"
                     id="end-date"
                     name="end date"
+                    required
                   />
                 </label>
               </label>
             </div>
-            <!-- <div class="mb-3 comment">
-              <label for="comment">Leave a Message:</label>
-              <textarea name="comment" id="comment" rows="5" cols="50"></textarea>
-            </div> -->
+
             <div class="mb-3">
               <label for="message" class="form-label">Leave a Message: </label>
               <textarea class="form-control" id="message" rows="3"></textarea>
@@ -225,9 +224,21 @@
 
     <footer>
       <section>
-        <div class="container text-center">
+        <div class="container text-center footer-text">
           <p>Made By Jyoti Hambir</p>
+          <div class="icon">
+            <a href="https://github.com/JyotiHambir-BC" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/jyoti-hambir/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="education">
+            <p>This site is education purpose only</p>
+          </div>          
         </div>
+        
       </section>
     </footer>
     <script
@@ -238,25 +249,39 @@
     <script src="assets/js/script.js"></script>
 
     <!-- Bootstrap Modal for message pop-up -->
-<div class="modal fade" id="thankYouModal" tabindex="-1" 
-aria-labelledby="thankYouModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="thankYouModalLabel">Travel Bliss</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" 
-        aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Thank you for choosing Travel Bliss! Your form has been submitted.
-        We will get back to you soon.!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <div
+      class="modal fade"
+      id="thankYouModal"
+      tabindex="-1"
+      aria-labelledby="thankYouModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="thankYouModalLabel">Travel Bliss</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Thank you for choosing Travel Bliss! Your form has been submitted.
+            We will get back to you soon.!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
   </body>
 </html>

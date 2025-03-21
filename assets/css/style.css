@@ -259,3 +259,23 @@ footer {
     width:100%;
     margin-top: auto;
 }
+
+.footer-text {
+    font-size: 17px;
+}
+
+.education {
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    font-size: 25px;    
+}
+
+.icon a {
+    color: #fff;
+    padding: 10px;
+}
