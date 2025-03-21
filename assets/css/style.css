@@ -59,6 +59,14 @@ nav {
     margin-top: 5px;    
 }
 
+.nav-link{
+    color: #fca311;
+}
+
+.nav-link:hover{
+    color: #fca311;
+}
+
 nav a {
     padding-left: 5px;
     padding-right: 10px;
@@ -66,15 +74,23 @@ nav a {
     font-family: 'poppins', sans-serif;
     font-weight: 600;
     font-size: 15px;
-    text-decoration: none;
-    color: #fca311;
+    text-decoration: none;    
 }
 
 nav a:hover {
     font-size: 20px;
-    text-decoration: underline;
-    color: #fca311;
+    text-decoration: underline;    
 }
+
+.burger-bar {
+    color: #fff;
+    font-size: 35px;
+    border: hidden;
+    display: flex;
+    justify-content: center;   
+    margin-left: 15px;
+}
+
 /* ----------------------------------------------- Homepage */
 .home-img {
     width: 100vw;
