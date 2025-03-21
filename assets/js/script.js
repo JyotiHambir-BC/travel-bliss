@@ -1,23 +1,22 @@
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     const submitButton = document.getElementById("submit");
-  
-//     submitButton.addEventListener("click", function () {
-//       alert(`Thank you for choosing ${document.title}! 
-//         We have received your Enquiry. 
-//         We will get back to you soon.!!`);
-//     });
-//   });
-
 document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("form");
     const submitButton = document.getElementById("submit");
   
-    submitButton.addEventListener("click", function (e) {
-      e.preventDefault(); // Prevent form submission (if needed)
+    submitButton.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default form submission
   
-      // Show Bootstrap modal
-      const thankYouModal = new bootstrap.Modal(document.getElementById("thankYouModal"));
-      thankYouModal.show();
+      if (form.checkValidity()) {
+        // If all fields are valid, show Bootstrap modal
+        const thankYouModal = new bootstrap.Modal(document.getElementById("thankYouModal"));
+        thankYouModal.show();
+  
+        // Optional: Reset form after successful submission
+        form.reset();
+      } else {
+        // If the form is not valid, show error messages
+        form.reportValidity();
+      }
     });
   });
   

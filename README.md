@@ -56,6 +56,20 @@
 
 ## Deployment
 
+## Bug
+
+**Bug 01 :** 
+In booking form when clicking on submit button the successfully submitted message displaying, even the form is not filled.<br> 
+
+**Solution :**
+Add if condition in javaScript for checking the form validity and if form is not valid then show the error message. After that it working as expected.
+
+-----------------------------------------------------------------------
+
+**Bug 02 :**
+
+
+
 ### How this site was deployed
 
   - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
