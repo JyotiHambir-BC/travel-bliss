@@ -3,7 +3,7 @@
 [View the live Project here](https://jyotihambir-bc.github.io/travel-bliss/)
 
 
-![Mockup]()
+![Mockup](assets/documents/mockup/mockup.png)
 
 ## User Experience (UX)
   - ### Use Stories
